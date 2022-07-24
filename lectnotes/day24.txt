@@ -1,0 +1,18 @@
+Exercise 24.2
+
+mySumL [1..4]
+==> mySumL (enumFromTo 1 4)
+==> mySumL.iter 0 (enumFromTo 1 4)
+==> mySumL.iter 0 (1: enumFromTo 2 4)
+==> mySumL.iter (0+1) (enumFromTo 2 4)
+==> mySumL.iter 1 (enumFromTo 2 4)
+==> mySumL.iter 1 (2: enumFromTo 3 4)
+==> mySumL.iter (1+2) (enumFromTo 3 4)
+==> mySumL.iter 3 (enumFromTo 3 4)
+==> mySumL.iter 3 (3: enumFromTo 4 4)
+==> mySumL.iter (3+3) (enumFromTo 4 4)
+==> mySumL.iter 6 (enumFromTo 4 4)
+==> mySumL.iter 6 (4:[])
+==> mySumL.iter (6+4) []
+==> mySumL.iter 10 []
+==> 10

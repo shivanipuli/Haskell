@@ -1,0 +1,2 @@
+packages : ./merge2.cabal
+tests: True

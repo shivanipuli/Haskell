@@ -1,0 +1,16 @@
+Test suite merge2-test: RUNNING...
+
+mergeSort
+  needs some tests
+    # PENDING: No reason given
+split
+  needs some tests
+    # PENDING: No reason given
+merge
+  needs some tests
+    # PENDING: No reason given
+
+Finished in 0.0002 seconds
+3 examples, 0 failures, 3 pending
+Test suite merge2-test: PASS
+Test suite logged to: /Users/Shivani/CMSC16100/shivanipuli/dist-newstyle/build/aarch64-osx/ghc-8.10.7/merge2-0.1.0.0/t/merge2-test/test/merge2-0.1.0.0-merge2-test.log
